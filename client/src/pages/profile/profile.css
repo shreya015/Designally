@@ -1,0 +1,128 @@
+.settings {
+    display: flex;
+    padding: 1rem 15rem;
+    background-color: #F5F7FA;
+  }
+  
+  .settingsWrapper {
+    flex: 9;
+    padding: 20px;
+  }
+  
+  .settingsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .settingsTitleUpdate {
+    align-self: flex-start;
+    font-size: 33px;
+    margin-bottom: 20px;
+    color: #252e41;
+    border: 1px solid #E5E7EB;
+    background-color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .settingsTitleDelete {
+    align-self: flex-end;
+    color: #3466F6;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #E5E7EB;
+    background-color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 20px;
+  }
+  .settingsTitleDelete:hover{
+    color: white;
+    background-color: #f56666;
+  }
+  .deleteAccount{
+    padding-right: 10px ;
+  }
+  .settingsForm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5E7EB;
+    background-color: white;
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+  }
+  
+  .settingsPP {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .settingsPP > img {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .settingsPPIcon {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -25px;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    background-color: #3466F6;
+    cursor: pointer;
+  }
+  
+  .settingsPPButton:focus {
+    outline-style: none;
+  }
+  
+  .settingsForm > label {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .settingsPPInput {
+    width: 30%;
+  }
+  
+  .settingsForm > input {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .settingsSubmitButton {
+    align-self: center;
+    width: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: -webkit-linear-gradient(45deg,#3466F6, #7c3aed);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px ;
+    font-size: 16px;
+  }
+  
+  .settingsSubmitButton:hover {
+    background-color: rgb(1, 114, 114);
+  }

@@ -1,0 +1,62 @@
+.register {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FAFBFF;
+    background-size: cover;
+  }
+  
+  .registerTitle {
+    font-size: 50px;
+    color: #3466F6;
+  }
+  
+  .registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerForm > label {
+    margin: 10px 0;
+  }
+  
+  .registerInput {
+    font-size: 18px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #3466F6;
+    border-radius: 50px;
+  }
+  
+  .registerInput:focus {
+    outline: none;
+  }
+  
+  .registerButton {
+    align-self: center;
+    width: 100%;
+    margin-top: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #3466F6;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+  }
+  
+  .registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
